@@ -4,7 +4,7 @@ Yet another library for mocking data in JavaScript.
 
 - [yaMock](#yamock)
   - [Features](#features)
-  - [Installing](#installing)
+  - [Installation](#installation)
   - [Example](#example)
   - [Usage](#usage)
     - [Mock](#mock)
@@ -17,7 +17,7 @@ Yet another library for mocking data in JavaScript.
 * Intuitive mock scheme description with integrated Types
 * Posibility to make promise based responses
 
-## Installing
+## Installation
 Using npm:
 ```bash
 $ npm install yamock
