@@ -331,7 +331,7 @@ export const ArrayOf = (type, length = 5) => {
                 const result = {};
 
                 Object.entries(type).forEach(([key, fn]) => {
-                    result[key] = fn();
+                    result[key] = typeof fn === "function" ? fn() : fn;
                 });
 
                 return result;
@@ -342,7 +342,7 @@ export const ArrayOf = (type, length = 5) => {
     if (typeof type === "object" && Array.isArray(type)) {
         return () => {
             return Array.from({ length: evaluate(length) }, () => {
-                return type.map((fn) => fn());
+                return type.map((fn) => (typeof fn === "function" ? fn() : fn));
             });
         };
     }
