@@ -1,9 +1,15 @@
 {
   "name": "yamock",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "type": "module",
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "keywords": [
+    "frontend",
+    "mock",
+    "fake",
+    "fakeapi"
+  ]
 }
