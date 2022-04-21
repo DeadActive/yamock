@@ -1,12 +1,16 @@
 {
   "name": "yamock",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "",
   "main": "./dist/yamock.min.js",
   "scripts": {
     "build": "webpack"
   },
   "author": "DeadActive",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DeadActive/yamock.git"
+  },
   "license": "ISC",
   "keywords": [
     "frontend",
