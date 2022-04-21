@@ -1,4 +1,4 @@
-import {
+const {
     capitalize,
     generateUUID,
     pickArray,
@@ -14,7 +14,7 @@ import {
     evaluate,
     randomStreet,
     randomGender,
-} from "./utils.js";
+} = require("./utils.js");
 
 // Integer
 

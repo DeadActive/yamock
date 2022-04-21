@@ -1,4 +1,4 @@
-import {
+const {
     characters,
     cities,
     countries,
@@ -7,7 +7,7 @@ import {
     lastNames,
     streets,
     words,
-} from "./constants.js";
+} = require("./constants.js");
 
 export function randomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min);

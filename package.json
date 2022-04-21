@@ -2,14 +2,20 @@
   "name": "yamock",
   "version": "1.0.3",
   "description": "",
-  "main": "index.js",
-  "type": "module",
-  "author": "",
+  "main": "./dist/yamock.min.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "author": "DeadActive",
   "license": "ISC",
   "keywords": [
     "frontend",
     "mock",
     "fake",
     "fakeapi"
-  ]
+  ],
+  "devDependencies": {
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  }
 }

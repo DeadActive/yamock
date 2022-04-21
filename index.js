@@ -1,4 +1,4 @@
-import { evaluate } from "./utils.js";
+const { evaluate } = require("./utils.js");
 
 /**
  * 
