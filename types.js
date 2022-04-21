@@ -347,7 +347,10 @@ export const ArrayOf = (type, length = 5) => {
         };
     }
 
-    return () => Array.from({ length: evaluate(length) }, () => type());
+    if (typeof type === "function")
+        return () => Array.from({ length: evaluate(length) }, () => type());
+
+    return () => Array.from({ length: evaluate(length) }, () => type);
 };
 
 // URIS
